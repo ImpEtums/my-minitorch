@@ -51,10 +51,7 @@ def lt(x: float, y: float) -> float:
 def eq(x: float, y: float) -> float:
     "$f(x) =$ 1.0 if x is equal to y else 0.0"
     # TODO: Implement for Task 0.1.
-    if is_close(x - y):
-        return 1.0
-    else:
-        return 0.0
+    return is_close(x, y)
     # raise NotImplementedError('Need to implement for Task 0.1')
 
 
